@@ -2,15 +2,21 @@ import "./App.css";
 // Для того, чтобы использовать компонент внутри другого компонента
 // нам необходимо импортировать компонент, который мы хотим использовать (Button)
 // в файл, в котором лежит компонент, внутри которого (App.jsx) мы будем использовать импортируемый
-import Button from "./components/Button/Button";
+// import Button from "./components/Button/Button";
+// Импорты лекций
+import Lesson02 from "./lessons/Lesson02/Lesson02";
 
 function App() {
   return (
     <div className="app">
-      <p>My first React app</p>
-     {/* Вызов компонента Button */}
-      <Button/>
-      <Button/>
+         {/* Лекция 1. Introduction */}
+      {/* <p>My first React app</p> */}
+      {/* Вызов компонента Button */}
+      {/* <Button />
+      <Button /> */}
+      {/* Лекция 2. Components */}
+      <Lesson02 />
+      
     </div>
   );
 }
